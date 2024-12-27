@@ -7,7 +7,7 @@ export default function Page() {
         Sonia Appasamy
       </h1>
       <p className="mb-4">
-        I'm a full stack engineer, currently making networking easier at{' '}
+        I'm a full stack engineer, currently making secure networking easier at{' '}
         <a
           className="underline underline-offset-4"
           href="https://tailscale.com/"
