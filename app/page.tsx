@@ -4,18 +4,45 @@ export default function Page() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        My Portfolio
+        Sonia Appasamy
       </h1>
       <p className="mb-4">
-        {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-        Vim's keystroke commands and tabs' flexibility for personal viewing
-        preferences. This extends to my support for static typing, where its
-        early error detection ensures cleaner code, and my preference for dark
-        mode, which eases long coding sessions by reducing eye strain.`}
+        I'm a full stack engineer, currently making networking easier at{' '}
+        <a
+          className="underline underline-offset-4"
+          href="https://tailscale.com/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Tailscale
+        </a>
+        .
       </p>
-      <div className="my-8">
+      <p className="mb-4">
+        Previously, I was at{' '}
+        <a
+          className="underline underline-offset-4"
+          href="https://palantir.com/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Palantir
+        </a>
+        , and before that was a student at{' '}
+        <a
+          className="underline underline-offset-4"
+          href="https://cornell.edu/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Cornell University
+        </a>
+        .
+      </p>
+      {/* Not currently using blogs. */}
+      {/* <div className="my-8">
         <BlogPosts />
-      </div>
+      </div> */}
     </section>
   )
 }
